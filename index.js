@@ -12,7 +12,7 @@ function getUsers(){
         jsAnswer.data.forEach(element => {
             let li = document.createElement('li');
             li.classList.add('list-item');
-            li.textContent = `${element.name} ${element.year}`;
+            li.textContent = `1)firstname: ${element.name} 2)year: ${element.year}`;
             ul.appendChild(li);
         });
         
